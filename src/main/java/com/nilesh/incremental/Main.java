@@ -9,6 +9,8 @@ public class Main {
     {
         System.out.print("Hello World");
         printMessage();
+        Helper helper = new Helper("Hi", "Nilesh");
+        helper.printMessage();
     }
 
     public static int printMessage(){
