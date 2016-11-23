@@ -7,13 +7,13 @@ public class Main {
 
     public static void main(String args[])
     {
-        printMessage();
+        printMessageFine();
         Helper helper = new Helper("Hi", "Nilesh");
         helper.printMessage();
         System.out.print("Hello World End");
     }
 
-    public static int printMessage(){
+    public static int printMessageFine(){
         String message  = "\"I am Doing Fine\"" ;
         System.out.println(message);
         return 1 ;
